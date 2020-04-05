@@ -1,21 +1,10 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-class App extends Component {
-  render() {
+import React from 'react';
+import './global.css'
+import Routes from './routes';
+function App () {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-         Hello Oministack
-        </p>
-      </div>
+     <Routes />
     );
-  }
 }
 
 export default App;
